@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.principal {
+    width: 250px;
+    overflow-y: scroll;
+    height: 80vh;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.principal .contenedor {
+    border: 1px solid #000;
+    width: 90%;
+    margin: auto;
+    margin-right: 5px;
+}
+.principal .contenedor .title{
+    text-decoration: none;
+    color: #fff;
+    background: #1E84C6;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 10px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    
+}
+
+.principal .contenedor .lista1 {
+    text-align: center;
+    width: 100%;
+    padding: 8px 4px;
+    border: 1.5px solid #000;
+    border-top: 0;
+    margin-bottom: 10px;
+}
+.principal .contenedor .lista1 li {
+    display: inline-block;
+    padding: 3px 2px;
+}
+.principal .contenedor .lista1 li a{
+    text-decoration: none;
+    color: #1E84C6;
+    font-size: 0.8rem;
+}
+.principal .contenedor .arriba .lista2 {
+    width: 90%;
+    padding: 0px 10px;
+    height: 300px;
+    overflow-y: scroll;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.principal .contenedor .arriba .linea {
+    height: 2px;
+    background: #000;
+    color: #000;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.principal .contenedor .arriba .lista2 a {
+    text-decoration: none;
+    color: #1E84C6;
+    position: sticky;
+    top: -10px;
+    background: #fff;
+    padding: 10px 0px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    letter-spacing: -1px;
+}
+.principal .contenedor .arriba .lista2 .lis2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 0.8rem;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.principal .contenedor .arriba .lista2 .lis2 .item {
+    padding: 3px 0px;
+}
+.principal .contenedor .arriba .lista2 .lis2 .item input {
+    margin-right: 5px;
+}
